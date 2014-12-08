@@ -1,6 +1,6 @@
 # Config
 
-**Config** is a basic checklist I follow to set up a new Mac's development environment. It gets me up to speed with Git, Ruby, GitHub, and more so I can more quickly get back to coding.
+**Config** is a basic checklist I follow to set up a new Mac's development environment. It gets me up to speed with Git, Ruby, GitHub, Jekyll, and more so I can more quickly get back to coding.
 
 ## Contents
 
@@ -15,8 +15,8 @@
 
 ### 1. Prep OS X
 
-- Install latest Xcode
-- Install latest Xcode command line tools
+- Download and install latest version of Xcode from the Mac App Store
+- Download and install Xcode command line tools
 
 ### 2. Download dependencies
 
@@ -24,6 +24,8 @@
 - Install [a Ruby version](https://github.com/sstephenson/rbenv#installing-ruby-versions) (last one I used was `1.9.3-p551`)
   - Set a [global Ruby version](https://github.com/sstephenson/rbenv#rbenv-global)
 - Install common gems: `$ gem install sass jekyll rouge`
+- Download and run the [Node.js Mac installer](http://nodejs.org/download/)
+- Install Grunt command line tools: `$ npm install -g grunt-cli`
 
 ### 3. Secure Git(Hub) access
 
@@ -32,9 +34,9 @@
 
 ### 4. Prep Terminal.app
 
-- Load [`.bash_profile`](/master/.bash_profile) (aliases, prompts, etc)
+- Load [`.bash_profile`](/master/.bash_profile)
 - Load [`.gitconfig`](/master/.gitconfig) contents into the global `~/.gitconfig`
-- Load color scheme
+- Tweak color scheme
 
 ### 5. Tweak Sublime Text 2 just right
 
