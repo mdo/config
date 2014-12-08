@@ -1,0 +1,28 @@
+[user]
+  name = Mark Otto
+  email = markdotto@gmail.com
+
+[alias]
+  co = checkout
+  ci = commit
+  st = status
+  br = branch
+
+[color]
+    ui = auto
+  [color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+  [color "diff"]
+    meta = yellow
+    frag = magenta
+    old = red
+    new = green
+    whitespace = red reverse
+  [color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+  [core]
+    whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
