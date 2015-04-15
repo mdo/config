@@ -36,10 +36,7 @@
 
 - Load [`.bash_profile`](/master/.bash_profile)
 - Load [`.gitconfig`](/master/.gitconfig) contents into the global `~/.gitconfig`
-- Enable the Sublime Text 2 `subl` shortcut
-```
-ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
-```
+- Enable the Sublime Text 2 `subl` shortcut (done via Bash alias, from `.bash_profile`)
 - Tweak color scheme
 
 ### 5. Tweak Sublime Text 2 just right
