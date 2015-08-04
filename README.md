@@ -37,7 +37,7 @@
 - Load [`.bash_profile`](/.bash_profile)
 - Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
 - Enable the Sublime Text 2 `subl` shortcut (done via Bash alias, from `.bash_profile`)
-- Tweak color scheme
+- Download and install the [Ocean theme](https://github.com/mdo/ocean-terminal)
 
 ### 5. Tweak Sublime Text 2 just right
 
