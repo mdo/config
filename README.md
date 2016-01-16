@@ -15,7 +15,7 @@
 ### 1. Prep OS X
 
 - Download and install latest version of Xcode from the Mac App Store
-- Download and install Xcode command line tools
+- Download and install Xcode command line tools from <https://developer.apple.com/downloads/>.
 
 ### 2. Download dependencies
 
