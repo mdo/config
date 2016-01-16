@@ -8,8 +8,7 @@
 | --- | --- |
 | `.bash-profile` | Customizes the Terminal.app prompt and echos the currently checked out Git branch. |
 | `.gitconfig` | Global Git configuration to specify my name and email, shortcuts, colors, and more. |
-| `.gitignore` | The ignore file from [twbs/bootstrap](https://github.com/twbs/bootstrap) that I use everywhere. |
-| `Preferences.sublime-settings` | My Sublime Text 2 user preferences. |
+| `.gitignore` | The ignore file from [twbs/bootstrap](https://github.com/twbs/bootstrap) that I use everywhere. |
 
 ## Checklist
 
