@@ -21,6 +21,7 @@
 
 - Load [`.bash_profile`](/.bash_profile)
 - Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
+- Load up the Ocean theme from <https://github.com/mdo/ocean-terminal>
 
 ### 3. Secure Git(Hub) access
 
