@@ -14,13 +14,10 @@ export PATH=/opt/local/bin:/opt/local/sbin:${PATH}
 
 # Aliases
 
-## Tools
-alias subl='/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl' 
-
 ## Shortcuts
 alias ll='ls -al'
 alias editgit='atom ~/.gitconfig'
-alias editbash='subl ~/.bash_profile'
+alias editbash='atom ~/.bash_profile'
 alias resource='source ~/.bash_profile && echo "Done!"'
 alias vi=vim
 
@@ -41,9 +38,6 @@ alias branch_new="git for-each-ref --sort=-committerdate refs/heads/ --format='%
 ## Git branch switching
 alias master='git co master'
 alias ghp='git co gh-pages'
-
-## Build tools
-alias gd='grunt dist'
 
 ## SVN
 alias up='svn up'
@@ -75,3 +69,6 @@ alias ios='open /Applications/Xcode.app/Contents/Applications/iPhone\ Simulator.
 
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
