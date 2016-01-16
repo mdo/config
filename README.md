@@ -17,45 +17,34 @@
 - Download and install latest version of Xcode from the Mac App Store.
 - Download and install Xcode Command Line Tools from <https://developer.apple.com/downloads/>.
 
-### 2. Download dependencies
+### 2. Prep Terminal.app
 
-- Install [rbenv](https://github.com/sstephenson/rbenv)
-- Install [a Ruby version](https://github.com/sstephenson/rbenv#installing-ruby-versions) (last one I used was `1.9.3-p551`)
-  - Set a [global Ruby version](https://github.com/sstephenson/rbenv#rbenv-global)
-- Install common gems: `$ gem install sass jekyll rouge`
-- Download and run the [Node.js Mac installer](http://nodejs.org/download/)
-- Install Grunt command line tools: `$ npm install -g grunt-cli`
+- Load [`.bash_profile`](/.bash_profile)
+- Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
 
 ### 3. Secure Git(Hub) access
 
 - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
-- [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled
+- [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled.
 
-### 4. Prep Terminal.app
+### 4. GitHub dev setup
 
-- Load [`.bash_profile`](/.bash_profile)
-- Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
-- Enable the Sublime Text 2 `subl` shortcut (done via Bash alias, from `.bash_profile`)
-- Download and install the [Ocean theme](https://github.com/mdo/ocean-terminal)
+- Download the Strap setup script for GitHub's foundational development setup.
+- Clone the `github/github` repository and run `script/osx-setup`.
 
-### 5. Tweak Sublime Text 2 just right
+### 5. Setup Ruby
 
-*I use Sublime Text 2 as ST3 had quite a few problems the first day I used it with Yosemite. You'll need to modify your approach below if you're using ST3.*
+- Install rbenv via Homebrew: `brew install rbenv`.
+- Download a version of Ruby via rbenv (e.g., `rbenv install 2.2.3`). See <https://gorails.com/setup/osx/10.11-el-capitan>.
+- Make it the global version of Ruby: `rbenv global 2.2.3`.
 
-- [Install Package Control](https://sublime.wbond.net/installation):
-  - Open Sublime Text 2 and hit `Ctrl-\``, then enter the following:
-```bash
-import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')
-```
-- Install and load packages (`Cmd-Shift-P`):
-  - [Spacegray theme](http://kkga.github.io/spacegray/)
-  - [Sass](http://sass-lang.com) package
-- Load user settings from [`Preferences.sublime-settings`](/Preferences.sublime-settings)
+### 6. Additional dependencies
 
-### 6. Download Atom
+- Install node via Homebrew: `brew install node`.
+- Install Sass, Jekyll, and Rouge: `gem install sass jekyll rouge`.
 
-- Install Atom itself
-- Add Spacegray UI theme and Ocean Dark color scheme
+### 7. Setup Atom
+
 - Enable `atom` Terminal commands: from Atom.app, open the Atom menu and select *Install Shell Commands*
 
 ## Use it yourself
