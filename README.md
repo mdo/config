@@ -47,6 +47,10 @@
 ### 7. Setup Atom
 
 - Enable `atom` Terminal commands: from Atom.app, open the Atom menu and select *Install Shell Commands*
+- Install favorite packages
+  - [Wrap in tag](https://atom.io/packages/atom-wrap-in-tag)
+  - [Selector to tag](https://atom.io/packages/selector-to-tag)
+  - [Linter](https://atom.io/packages/linter) and [`.scss` linter](https://atom.io/packages/linter-scss-lint)
 
 ## Use it yourself
 
