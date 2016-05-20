@@ -20,6 +20,7 @@ alias editgit='atom ~/.gitconfig'
 alias editbash='atom ~/.bash_profile'
 alias resource='source ~/.bash_profile && echo "Done!"'
 alias vi=vim
+alias josh=sudo
 
 ## Git commands
 alias log='git log'
