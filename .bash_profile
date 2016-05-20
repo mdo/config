@@ -65,7 +65,7 @@ alias ps='python -m SimpleHTTPServer 4000'
 alias gtest='testrb test/integration/bundle_test.rb'
 
 ## Mobile iOS testing
-alias ios='open /Applications/Xcode.app/Contents/Applications/iPhone\ Simulator.app'
+alias ios='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app'
 
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
