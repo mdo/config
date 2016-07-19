@@ -6,7 +6,7 @@
 
 | File | Description |
 | --- | --- |
-| `.bash-profile` | Customizes the Terminal.app prompt and echoes the currently checked out Git branch. |
+| `.bash_profile` | Customizes the Terminal.app prompt and echoes the currently checked out Git branch. |
 | `.gitconfig` | Global Git configuration to specify my name and email, shortcuts, colors, and more. |
 | `.gitignore` | The ignore file from [twbs/bootstrap](https://github.com/twbs/bootstrap) that I use everywhere. |
 
