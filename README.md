@@ -52,7 +52,7 @@
 - Install favorite packages
   - [Wrap in tag](https://atom.io/packages/atom-wrap-in-tag)
   - [Selector to tag](https://atom.io/packages/selector-to-tag)
-  - [Linter](https://atom.io/packages/linter) and [`.scss` linter](https://atom.io/packages/linter-scss-lint)
+  - [EditorConfig](https://atom.io/packages/editorconfig)
 
 ## Use it yourself
 
