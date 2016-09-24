@@ -17,6 +17,8 @@
 - Download and install latest version of Xcode from the Mac App Store.
 - Download and install Xcode Command Line Tools from <https://developer.apple.com/downloads/>.
 
+**Be sure to open Xcode and agree to the terms of use.**
+
 ### 2. Prep Terminal.app
 
 - Load [`.bash_profile`](/.bash_profile)
