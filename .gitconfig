@@ -4,6 +4,7 @@
 
 [alias]
   co = checkout
+  cp = cherry-pick
   ci = commit
   st = status
   br = branch
