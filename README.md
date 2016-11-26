@@ -55,7 +55,7 @@
   - [Wrap in tag](https://atom.io/packages/atom-wrap-in-tag)
   - [Selector to tag](https://atom.io/packages/selector-to-tag)
   - [EditorConfig](https://atom.io/packages/editorconfig)
-  - [Markdown Writer](https://atom.io/packages/markdown-writer)
+  - [Markdown Writer](https://atom.io/packages/markdown-writer) (install and run `Markdown Writer: Create Default keymaps` to activate default keybindings)
 
 ## Use it yourself
 
