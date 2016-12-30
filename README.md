@@ -57,6 +57,11 @@
   - [EditorConfig](https://atom.io/packages/editorconfig)
   - [Markdown Writer](https://atom.io/packages/markdown-writer) (install and run `Markdown Writer: Create Default keymaps` to activate default keybindings)
 
+### 8. Customize things
+- Disable LCD font smoothing
+- Hide desktop icons with `defaults write com.apple.finder CreateDesktop false; killall Finder`
+- Set sidebar icons to Small
+
 ## Use it yourself
 
 Fork this repo, or just copy-paste things you need, and make it your own. **Please be sure to change your `.gitconfig` name and email address though!**
