@@ -56,6 +56,7 @@
   - [Selector to tag](https://atom.io/packages/selector-to-tag)
   - [EditorConfig](https://atom.io/packages/editorconfig)
   - [Markdown Writer](https://atom.io/packages/markdown-writer) (install and run `Markdown Writer: Create Default keymaps` to activate default keybindings)
+  - [Import SF Mono](https://atom.io/packages/import-sf-mono) to allow Atom to access `SF Mono` as editor type face
 
 ### 8. Customize things
 - Disable LCD font smoothing
