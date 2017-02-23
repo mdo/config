@@ -37,7 +37,7 @@
 
 ### 5. Setup Ruby
 
-- Install rbenv via Homebrew: `brew install rbenv`.
+- Install rbenv via Homebrew: `brew install rbenv ruby-build`.
 - Download a version of Ruby via rbenv (e.g., `rbenv install 2.2.3`). See <https://gorails.com/setup/osx/10.11-el-capitan>.
 - Make it the global version of Ruby: `rbenv global 2.2.3`.
 
