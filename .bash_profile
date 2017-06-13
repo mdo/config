@@ -32,17 +32,12 @@ alias push='git push origin head'
 alias pull='git pull'
 alias fp='fetch && pull'
 alias gmm='git merge master'
-alias gmghp='git merge gh-pages'
 alias recent='git for-each-ref --sort=-committerdate refs/heads/'
 alias branch_new="git for-each-ref --sort=-committerdate refs/heads/ --format='%(refname:short)'"
 
 ## Git branch switching
 alias master='git co master'
 alias ghp='git co gh-pages'
-
-## SVN
-alias up='svn up'
-alias sst='svn st'
 
 ## Switch repos
 DIR=~/work
@@ -53,15 +48,10 @@ alias bs='cd ${DIR}/bootstrap'
 ## Core GitHub apps
 alias gh='cd ~/github'
 alias gg='cd ~/github/github'
-alias ggg='gg && script/server'
-alias giants='cd ~/github/giants'
-alias hire='cd ~/github/hire'
-alias summit='cd ~/github/summit'
-alias primer='cd ~/github/primer'
 
 ## Server guick starts
 alias ss='script/server'
-alias js='jekyll serve --watch'
+alias js='bundle exec jekyll serve --watch'
 alias ps='python -m SimpleHTTPServer 4000'
 alias gtest='testrb test/integration/bundle_test.rb'
 
