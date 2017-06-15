@@ -46,7 +46,7 @@
 ### 6. Additional dependencies
 
 - Install node via Homebrew: `brew install node`.
-- Install Sass, Jekyll, and Rouge: `gem install sass jekyll rouge`.
+- Install Sass, Jekyll, and Rouge: `gem install bundler sass jekyll rouge`.
 
 ### 7. Setup Atom
 
