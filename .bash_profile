@@ -3,6 +3,9 @@ parse_git_branch() {
   git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ (\1)/'
 }
 
+# Make Git branch a variable
+branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
+
 # Custom bash prompt
 #
 # Includes custom character for the prompt, path, and Git branch name.
@@ -24,6 +27,7 @@ alias josh=sudo
 
 ## Git commands
 alias log='git log'
+alias wut='git log master...${branch} --oneline'
 alias diff='git diff'
 alias branch='git branch'
 alias st='git status'
