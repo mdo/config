@@ -43,6 +43,8 @@
 
 *Installing and managing Ruby with rbenv allows us to specify versions of Ruby on a per-project basis. It also means we can avoid running sudo commands for installing gems and more as it's not affecting OS X's system Ruby.*
 
+*Having trouble with nokogiri? See <https://stackoverflow.com/a/41491487>.*
+
 ### 6. Additional dependencies
 
 - Install node via Homebrew: `brew install node`.
