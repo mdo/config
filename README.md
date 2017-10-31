@@ -69,6 +69,14 @@
 - Bump up the contrast, go to Accessibility and check `Reduce Motion`, `Increase Contrast`.
 - Get 24-Hour time by going to Language and Region and checking the `Time Format` checkbox.
 
+### 9. Some Security Concerns
+
+- Checkout this wonderfully crafted [macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
+- Checkout some of the [EFF Privacy Guidelines available](https://www.eff.org/deeplinks/2015/11/guide-google-account-privacy-settings-students), [this guide](https://ssd.eff.org/) is really good.
+  - [EFF Website](https://www.eff.org/)
+  - [Badger Google Chrome Extension](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp/related?hl=en-US)
+  - [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp/related?hl=en)
+
 ## Use it yourself
 
 Fork this repo, or just copy-paste things you need, and make it your own. **Please be sure to change your `.gitconfig` name and email address though!**
