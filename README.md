@@ -47,13 +47,14 @@
 
 ### 6. Additional dependencies
 
+- Install [homebrew](https://brew.sh/), `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 - Install node via Homebrew: `brew install node`.
 - Install Sass, Jekyll, and Rouge: `gem install bundler sass jekyll rouge`.
 
-### 7. Setup Atom
+### 7. Setup ~~Atom~~ [Sublime Text 3](https://www.sublimetext.com/3)
 
 - Enable `atom` Terminal commands: from Atom.app, open the Atom menu and select *Install Shell Commands*
-- Install favorite packages
+- Install [favorite packages](https://packagecontrol.io/)
   - [Wrap in tag](https://atom.io/packages/atom-wrap-in-tag)
   - [Selector to tag](https://atom.io/packages/selector-to-tag)
   - [EditorConfig](https://atom.io/packages/editorconfig)
@@ -64,6 +65,9 @@
 - Disable LCD font smoothing
 - Hide desktop icons with `defaults write com.apple.finder CreateDesktop false; killall Finder`
 - Set sidebar icons to Small
+- Type faster by going to Keyboard and moving `Key Repeat` all the way to `Fast` and `Delay until repeat` all the way to `Short`.
+- Bump up the contrast, go to Accessibility and check `Reduce Motion`, `Increase Contrast`.
+- Get 24-Hour time by going to Language and Region and checking the `Time Format` checkbox.
 
 ## Use it yourself
 
