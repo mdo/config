@@ -55,6 +55,7 @@
 
 - Enable `atom` Terminal commands: from Atom.app, open the Atom menu and select *Install Shell Commands*
 - Install [favorite packages](https://packagecontrol.io/)
+  - [GitGutter](https://packagecontrol.io/packages/GitGutter)
   - [Wrap in tag](https://atom.io/packages/atom-wrap-in-tag)
   - [Selector to tag](https://atom.io/packages/selector-to-tag)
   - [EditorConfig](https://atom.io/packages/editorconfig)
