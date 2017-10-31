@@ -76,6 +76,7 @@
   - [EFF Website](https://www.eff.org/)
   - [Badger Google Chrome Extension](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp/related?hl=en-US)
   - [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp/related?hl=en)
+  - Activate [Stealth Mode](https://support.apple.com/kb/PH25606?locale=en_US).
 
 ## Use it yourself
 
