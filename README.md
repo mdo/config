@@ -53,14 +53,18 @@
 
 ### 7. Setup ~~Atom~~ [Sublime Text 3](https://www.sublimetext.com/3)
 
-- Enable `atom` Terminal commands: from Atom.app, open the Atom menu and select *Install Shell Commands*
-- Install [favorite packages](https://packagecontrol.io/)
+- Enable `subl` Terminal commands: Use command: `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl;`. 
+  - _Note_ this seems to be problematic sometimes so if errornous, use symlink with `rm /usr/local/bin/subl` and the re-apply first command. 
+  - [Thanks to gist](https://gist.github.com/jadaradix/8fbfb52a942fe31b7354).
+  - [Debugger help](http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/)
+  - [Misleading ST3 Docs on using `subl`](https://www.sublimetext.com/docs/3/osx_command_line.html)
+
+- Git tab completions in bash, [here is how to add git tab completions](http://code-worrier.com/blog/autocomplete-git/)
+  - [supplemental resource](https://gist.github.com/trey/2722934)
+
+- Install [favorite packages](https://packagecontrol.io/) for ST3:
   - [GitGutter](https://packagecontrol.io/packages/GitGutter)
-  - [Wrap in tag](https://atom.io/packages/atom-wrap-in-tag)
-  - [Selector to tag](https://atom.io/packages/selector-to-tag)
-  - [EditorConfig](https://atom.io/packages/editorconfig)
-  - [Markdown Writer](https://atom.io/packages/markdown-writer) (install and run `Markdown Writer: Create Default keymaps` to activate default keybindings)
-  - [Import SF Mono](https://atom.io/packages/import-sf-mono) to allow Atom to access `SF Mono` as editor type face
+
 
 ### 8. Customize things
 - Disable LCD font smoothing
@@ -78,10 +82,16 @@
   - [Badger Google Chrome Extension](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp/related?hl=en-US)
   - [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp/related?hl=en)
   - Activate [Stealth Mode](https://support.apple.com/kb/PH25606?locale=en_US).
+  - Setup Sublime as editor for `git`, guide found [here](https://help.github.com/articles/associating-text-editors-with-git/).
+    - `git config --global core.editor "subl -n -w"`
+
 
 ## Use it yourself
 
 Fork this repo, or just copy-paste things you need, and make it your own. **Please be sure to change your `.gitconfig` name and email address though!**
+
+
+_Another Quality Setup Guide found [here](http://sourabhbajaj.com/mac-setup/index.html) which is in a git book format._
 
 ## Works on my machine
 
