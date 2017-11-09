@@ -1,7 +1,7 @@
 {
   "bold_folder_labels": true,
   "caret_style": "phase",
-  "color_scheme": "Packages/User/SublimeLinter/IDLE (SL).tmTheme",
+  "color_scheme": "Packages/Solarized Color Scheme/Solarized (light).tmTheme",
   "fade_fold_buttons": false,
   "folder_exclude_patterns":
   [
@@ -30,5 +30,7 @@
   "theme_primer_tab_active_green": true,
   "translate_tabs_to_spaces": true,
   "word_wrap": true,
-  "wrap_width": 80
+  "wrap_width": 80,
+  "auto_complete_commit_on_tab": true,
+  "auto_complete_with_fields": true,
 }
