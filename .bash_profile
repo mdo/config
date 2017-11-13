@@ -11,19 +11,25 @@ branch=$(git branch | sed -n -e 's/^\* \(.*\)/\1/p')
 # Includes custom character for the prompt, path, and Git branch name.
 #
 # Source: kirsle.net/wizards/ps1.html
-export PS1="\n\[$(tput bold)\]\[$(tput setaf 5)\]➜ \[$(tput setaf 6)\]\w\[$(tput setaf 3)\]\$(parse_git_branch) \[$(tput sgr0)\]"
+# export PS1="\n\[$(tput bold)\]\[$(tput setaf 5)\]➜ \[$(tput setaf 6)\]\w\[$(tput setaf 3)\]\$(parse_git_branch) \[$(tput sgr0)\]"
 
 export PATH=/opt/local/bin:/opt/local/sbin:${PATH}
 
 # Aliases
 
+## Homebrew
+
+alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
+
+
 ## Shortcuts
 alias ll='ls -al'
-alias editgit='atom ~/.gitconfig'
-alias editbash='atom ~/.bash_profile'
+alias editgit='subl ~/.gitconfig'
+alias editbash='subl ~/.bash_profile'
+alias resource='source ~/.bash_profile && echo "Done!"'
 alias resource='source ~/.bash_profile && echo "Done!"'
 alias vi=vim
-alias josh=sudo
+#alias josh=sudo
 
 ## Git commands
 alias log='git log'
@@ -44,14 +50,15 @@ alias master='git co master'
 alias ghp='git co gh-pages'
 
 ## Switch repos
-DIR=~/work
+#DIR=~/work
+DIR=~/Sites
 alias h='cd ~/'
-alias w='cd ${DIR}'
-alias bs='cd ${DIR}/bootstrap'
+alias w='cd ${DIR}; ll'
+#alias bs='cd ${DIR}/bootstrap'
 
 ## Core GitHub apps
-alias gh='cd ~/github'
-alias gg='cd ~/github/github'
+# alias gh='cd ~/github'
+# alias gg='cd ~/github/github'
 
 ## Server guick starts
 alias ss='script/server'
@@ -59,11 +66,30 @@ alias js='bundle exec jekyll serve --watch'
 alias ps='python -m SimpleHTTPServer 4000'
 alias gtest='testrb test/integration/bundle_test.rb'
 
-## Mobile iOS testing
-alias ios='open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app'
+# MacOS Tasks
 
-# Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
+# Reset dock to default (with default apps)
+alias resetDock='defaults delete com.apple.dock; killall Dock'
+
+# Hide desktop icons
+alias hideDesktopIcons='defaults write com.apple.finder CreateDesktop false; killall Finder'
+
+
+# rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+# sublime text setup
+#export PATH=/usr/local/bin:$PATH
+export PATH=/bin:/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:$PATH
+
+
+# Git bash completions
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+  . $(brew --prefix)/etc/bash_completion
+fi
+
+export PATH="/usr/local/bin:$PATH"
+
 
 # rbenv
 if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
