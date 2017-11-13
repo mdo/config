@@ -27,7 +27,7 @@ alias ll='ls -al'
 alias editgit='subl ~/.gitconfig'
 alias editbash='subl ~/.bash_profile'
 alias resource='source ~/.bash_profile && echo "Done!"'
-alias resource='source ~/.bash_profile && echo "Done!"'
+# alias resource='source ~/.bash_profile && echo "Done!"'
 alias vi=vim
 #alias josh=sudo
 

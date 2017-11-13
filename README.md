@@ -1,4 +1,4 @@
-# Config
+# Config v.0.3.0
 
 **Config** is a basic checklist I follow to set up a new Mac's development environment. It gets me up to speed with Git, Ruby, GitHub, Jekyll, and more so I can more quickly get back to coding.
 
@@ -63,7 +63,7 @@ Enable `subl` Terminal commands, Use command: `sudo ln -s "/Applications/Sublime
 
 _Note_ this seems to be problematic sometimes so if errornous, use symlink with `rm /usr/local/bin/subl` and the re-apply first command.
 
-- [Thanks to gist for calrification](https://gist.github.com/jadaradix/8fbfb52a942fe31b7354).
+- [Thanks to gist for clarification(https://gist.github.com/jadaradix/8fbfb52a942fe31b7354).
 - [Debugger help](http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/)
 - [Snippets Tut by Rob Dodson](http://robdodson.me/sublime-snippet-basics/)
 - [Misleading ST3 Docs on using `subl`](https://www.sublimetext.com/docs/3/osx_command_line.html)
@@ -75,6 +75,8 @@ _Note_ this seems to be problematic sometimes so if errornous, use symlink with 
   - See commonly used list of packages [here](./sublime-text-plugins.md).
 - [GitGutter](https://packagecontrol.io/packages/GitGutter)
 - [Using sublime text as a code linter](https://github.com/SublimeLinter/SublimeLinter-jshint)
+- Setup Sublime Text as the default editor for `git`, guide found [here](https://help.github.com/articles/associating-text-editors-with-git/).
+    - `git config --global core.editor "subl -n -w"`
 
 #### 7.3 Tab Completions for Git Commands
 
@@ -90,36 +92,34 @@ Git tab completions in bash, [here is how to add git tab completions](http://cod
 - Get 24-Hour time by going to Language and Region and checking the `Time Format` checkbox.
 
 
-### 9. Some Security Concerns
+### 9. Security Customizations
 
-- Checkout this wonderfully crafted [macOS-Security-and-Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
-- Checkout some of the [EFF Privacy Guidelines available](https://www.eff.org/deeplinks/2015/11/guide-google-account-privacy-settings-students), [this guide](https://ssd.eff.org/) is really good.
+- [macOS Security and Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
+- [EFF Privacy Guidelines available](https://www.eff.org/deeplinks/2015/11/guide-google-account-privacy-settings-students), 
+  - [EEF Guide #2](https://ssd.eff.org/)
   - [EFF Website](https://www.eff.org/)
   - [Badger Google Chrome Extension](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp/related?hl=en-US)
-  - [HTTPS Everywhere](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp/related?hl=en)
-  - Activate [Stealth Mode](https://support.apple.com/kb/PH25606?locale=en_US).
-  - Setup Sublime as editor for `git`, guide found [here](https://help.github.com/articles/associating-text-editors-with-git/).
-    - `git config --global core.editor "subl -n -w"`
+  - [HTTPS Everywhere Google Chrome Extension](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp/related?hl=en)
+  - Activate [Stealth Mode](https://support.apple.com/kb/PH25606?locale=en_US) for maxOs.
 
 
 ### 10. Browser Setup
 
-Check out Google Chrome [teams documentation](https://developers.google.com/web/tools/setup/) as a good starting point for development.
+Check out Google Chrome [teams documentation](https://developers.google.com/web/tools/setup/) as a good starting point for a development setup guide.
 
 The short series will review devtools and [setting up Chrome - Text Editor](https://developers.google.com/web/tools/setup/setup-editor) (and they use Sublime Text!!) integrated development.
-
-#### 10.1 Supplemental material
-
-[Overview of Sublime Text editor by a real cool dude](http://robdodson.me/sublime-text-2-tips-and-shortcuts/).
-
 
 
 ## Use it yourself
 
 Fork this repo, or just copy-paste things you need, and make it your own. **Please be sure to change your `.gitconfig` name and email address though!**
 
+## Supplementary Material
 
-_Another Quality Setup Guide found [here](http://sourabhbajaj.com/mac-setup/index.html) which is in a git book format._
+- <http://sourabhbajaj.com/mac-setup/index.html>
+- <https://hackercodex.com/guide/mac-development-configuration/>
+- <http://robdodson.me/sublime-text-2-tips-and-shortcuts/>
+- Read the markdown files in the [docs](https://github.com/tyler-vs/config/tree/master/docs) folder for more.
 
 ## Works on my machine
 
