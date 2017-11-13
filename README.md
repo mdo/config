@@ -47,26 +47,36 @@
 
 ### 6. Additional dependencies
 
-- Install [homebrew](https://brew.sh/), `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- Install [Homebrew](https://brew.sh/), `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+  - See [notes](https://gist.github.com/indiesquidge/ec010eca3ffa254788c2) on using the `brewup` command added to the [.bashprofile](./.base_profile).
+  - [Aricle](https://www.safaribooksonline.com/blog/2014/03/18/keeping-homebrew-date/) on keeping Homebrew up to date.
+  - [Aricle on using Homebrew](https://hackercodex.com/guide/mac-development-configuration/).
 - Install node via Homebrew: `brew install node`.
 - Install Sass, Jekyll, and Rouge: `gem install bundler sass jekyll rouge`.
 
 ### 7. Setup ~~Atom~~ [Sublime Text 3](https://www.sublimetext.com/3)
 
-Enable `subl` Terminal commands, Use command: `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl;`. 
 
-_Note_ this seems to be problematic sometimes so if errornous, use symlink with `rm /usr/local/bin/subl` and the re-apply first command. 
+#### 7.1 Enable CLI for Sublime Text 3
+
+Enable `subl` Terminal commands, Use command: `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl;`.
+
+_Note_ this seems to be problematic sometimes so if errornous, use symlink with `rm /usr/local/bin/subl` and the re-apply first command.
 
 - [Thanks to gist for calrification](https://gist.github.com/jadaradix/8fbfb52a942fe31b7354).
 - [Debugger help](http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/)
 - [Snippets Tut by Rob Dodson](http://robdodson.me/sublime-snippet-basics/)
 - [Misleading ST3 Docs on using `subl`](https://www.sublimetext.com/docs/3/osx_command_line.html)
 - [supplemental resource](https://gist.github.com/trey/2722934)
-- Install [favorite packages](https://packagecontrol.io/) for ST3:
+
+#### 7.2 Sublime Package Control
+
+- Go to [favorite packages](https://packagecontrol.io/) to find packages.
+  - See commonly used list of packages [here](./sublime-text-plugins.md).
 - [GitGutter](https://packagecontrol.io/packages/GitGutter)
 - [Using sublime text as a code linter](https://github.com/SublimeLinter/SublimeLinter-jshint)
 
-#### Also helpful: Tab completions for Git commands
+#### 7.3 Tab Completions for Git Commands
 
 Git tab completions in bash, [here is how to add git tab completions](http://code-worrier.com/blog/autocomplete-git/)
 

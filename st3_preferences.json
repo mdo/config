@@ -1,7 +1,9 @@
 {
+  "auto_complete_commit_on_tab": true,
+  "auto_complete_with_fields": true,
   "bold_folder_labels": true,
   "caret_style": "phase",
-  "color_scheme": "Packages/Solarized Color Scheme/Solarized (light).tmTheme",
+  "color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
   "fade_fold_buttons": false,
   "folder_exclude_patterns":
   [
@@ -9,7 +11,8 @@
     ".git",
     ".hg",
     "CVS",
-    "node_modules"
+    "node_modules",
+    ".sass-cache"
   ],
   "font_size": 13,
   "highlight_line": true,
@@ -22,7 +25,7 @@
   "line_padding_top": 1,
   "rulers":
   [
-    80,
+    90,
     100
   ],
   "tab_size": 2,
@@ -30,7 +33,5 @@
   "theme_primer_tab_active_green": true,
   "translate_tabs_to_spaces": true,
   "word_wrap": true,
-  "wrap_width": 80,
-  "auto_complete_commit_on_tab": true,
-  "auto_complete_with_fields": true,
+  "wrap_width": 90
 }
