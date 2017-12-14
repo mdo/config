@@ -47,36 +47,37 @@
 
 ### 6. Additional dependencies
 
-- Install [Homebrew](https://brew.sh/), `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
+- Install [Homebrew](https://brew.sh/), `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`.
   - See [notes](https://gist.github.com/indiesquidge/ec010eca3ffa254788c2) on using the `brewup` command added to the [.bashprofile](./.base_profile).
-  - [Aricle](https://www.safaribooksonline.com/blog/2014/03/18/keeping-homebrew-date/) on keeping Homebrew up to date.
+  - [Article](https://www.safaribooksonline.com/blog/2014/03/18/keeping-homebrew-date/) on keeping Homebrew up to date.
   - [Aricle on using Homebrew](https://hackercodex.com/guide/mac-development-configuration/).
 - Install node via Homebrew: `brew install node`.
 - Install Sass, Jekyll, and Rouge: `gem install bundler sass jekyll rouge`.
+- [Homebrew Commands Cheatsheet](https://devhints.io/homebrew).
+
 
 ### 7. Setup ~~Atom~~ [Sublime Text 3](https://www.sublimetext.com/3)
-
 
 #### 7.1 Enable CLI for Sublime Text 3
 
 Enable `subl` Terminal commands, Use command: `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl;`.
 
-_Note_ this seems to be problematic sometimes so if errornous, use symlink with `rm /usr/local/bin/subl` and the re-apply first command.
-
-- [Thanks to gist for clarification(https://gist.github.com/jadaradix/8fbfb52a942fe31b7354).
+- [gist for clarification on setting up `subl` command](https://gist.github.com/jadaradix/8fbfb52a942fe31b7354).
 - [Debugger help](http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/)
 - [Snippets Tut by Rob Dodson](http://robdodson.me/sublime-snippet-basics/)
-- [Misleading ST3 Docs on using `subl`](https://www.sublimetext.com/docs/3/osx_command_line.html)
 - [supplemental resource](https://gist.github.com/trey/2722934)
+- [Google'S Totally Tooling Tips Sublime Text Setup Article](https://developers.google.com/web/shows/ttt/series-1/sublime-text-plugins?refresh=1)
+- Check out Google Chrome [teams documentation](https://developers.google.com/web/tools/setup/) as a good starting point for a development setup guide.
+- The short series will review devtools and [setting up Chrome - Text Editor](https://developers.google.com/web/tools/setup/setup-editor) (and they use Sublime Text!!) integrated development.
+
 
 #### 7.2 Sublime Package Control
 
 - Go to [favorite packages](https://packagecontrol.io/) to find packages.
   - See commonly used list of packages [here](./sublime-text-plugins.md).
-- [GitGutter](https://packagecontrol.io/packages/GitGutter)
 - [Using sublime text as a code linter](https://github.com/SublimeLinter/SublimeLinter-jshint)
 - Setup Sublime Text as the default editor for `git`, guide found [here](https://help.github.com/articles/associating-text-editors-with-git/).
-    - `git config --global core.editor "subl -n -w"`
+  - `git config --global core.editor "subl -n -w"`
 
 #### 7.3 Tab Completions for Git Commands
 
@@ -101,13 +102,6 @@ Git tab completions in bash, [here is how to add git tab completions](http://cod
   - [Badger Google Chrome Extension](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp/related?hl=en-US)
   - [HTTPS Everywhere Google Chrome Extension](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp/related?hl=en)
   - Activate [Stealth Mode](https://support.apple.com/kb/PH25606?locale=en_US) for maxOs.
-
-
-### 10. Browser Setup
-
-Check out Google Chrome [teams documentation](https://developers.google.com/web/tools/setup/) as a good starting point for a development setup guide.
-
-The short series will review devtools and [setting up Chrome - Text Editor](https://developers.google.com/web/tools/setup/setup-editor) (and they use Sublime Text!!) integrated development.
 
 
 ## Use it yourself
