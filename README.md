@@ -1,4 +1,4 @@
-# Config v.0.3.0
+# [Config](https://github.com/tyler-vs/config)
 
 **Config** is a basic checklist I follow to set up a new Mac's development environment. It gets me up to speed with Git, Ruby, GitHub, Jekyll, and more so I can more quickly get back to coding.
 
@@ -32,8 +32,12 @@
 
 ### 4. GitHub dev setup
 
-- Download the Strap setup script for GitHub's foundational development setup.
-- Clone the `github/github` repository and run `script/osx-setup`.
+*Go to 6. Additional dependencies section below before reading this section.*
+
+- ~~Download the Strap setup script for GitHub's foundational development setup.~~
+- ~~Clone the `github/github` repository and run `script/osx-setup`.~~
+- Download git via homebrew `brew install git`, see [git docs](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git) for alternative installation guides.
+
 
 ### 5. Setup Ruby
 
@@ -62,22 +66,21 @@
 
 Enable `subl` Terminal commands, Use command: `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl;`.
 
-- [gist for clarification on setting up `subl` command](https://gist.github.com/jadaradix/8fbfb52a942fe31b7354).
-- [Debugger help](http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/)
-- [Snippets Tut by Rob Dodson](http://robdodson.me/sublime-snippet-basics/)
-- [supplemental resource](https://gist.github.com/trey/2722934)
+
+- [Read about setting up `sublime snippets` by Rob Dodson here](http://robdodson.me/sublime-snippet-basics/)
 - [Google'S Totally Tooling Tips Sublime Text Setup Article](https://developers.google.com/web/shows/ttt/series-1/sublime-text-plugins?refresh=1)
-- Check out Google Chrome [teams documentation](https://developers.google.com/web/tools/setup/) as a good starting point for a development setup guide.
-- The short series will review devtools and [setting up Chrome - Text Editor](https://developers.google.com/web/tools/setup/setup-editor) (and they use Sublime Text!!) integrated development.
+- [Check out Google Chrome guide for setting up Sublime Text 3teams documentation.](https://developers.google.com/web/tools/setup/)
+- [The short series will review devtools and setting up Chrome - Text Editor](https://developers.google.com/web/tools/setup/setup-editor)
 
 
 #### 7.2 Sublime Package Control
 
-- Go to [favorite packages](https://packagecontrol.io/) to find packages.
-  - See commonly used list of packages [here](./sublime-text-plugins.md).
-- [Using sublime text as a code linter](https://github.com/SublimeLinter/SublimeLinter-jshint)
-- Setup Sublime Text as the default editor for `git`, guide found [here](https://help.github.com/articles/associating-text-editors-with-git/).
-  - `git config --global core.editor "subl -n -w"`
+- [Additional Sublime Text Packages](https://packagecontrol.io/)
+- [My list of common packages](./sublime-text-plugins.md).
+
+Setup Sublime Text as the default editor for `git`, guide found [here](https://help.github.com/articles/associating-text-editors-with-git/). 
+
+`git config --global core.editor "subl -n -w"`
 
 #### 7.3 Tab Completions for Git Commands
 
@@ -101,8 +104,8 @@ Git tab completions in bash, [here is how to add git tab completions](http://cod
   - [EFF Website](https://www.eff.org/)
   - [Badger Google Chrome Extension](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp/related?hl=en-US)
   - [HTTPS Everywhere Google Chrome Extension](https://chrome.google.com/webstore/detail/https-everywhere/gcbommkclmclpchllfjekcdonpmejbdp/related?hl=en)
-  - Activate [Stealth Mode](https://support.apple.com/kb/PH25606?locale=en_US) for maxOs.
-
+  - [Activate Stealth Mode on macos](https://support.apple.com/kb/PH25606?locale=en_US) for macos.
+- [Remove Adobe Flash from macos](https://helpx.adobe.com/flash-player/kb/uninstall-flash-player-mac-os.html)
 
 ## Use it yourself
 

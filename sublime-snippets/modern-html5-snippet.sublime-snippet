@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+<!DOCTYPE html>
+<html class="no-js" lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <link rel="manifest" href="/manifest.json">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>${1:App Shell}</title>
+  <link rel="stylesheet" type="text/css" href="${2:styles/inline.css}">
+</head>
+
+<body>
+
+  <h1>$1</h1>
+  $0
+
+  <script src="${3:app.js}" async></script>
+</body>
+</html>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>html</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>My Modern HTML5 Boilerplate Snippet</description>
+</snippet>

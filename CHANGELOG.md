@@ -7,10 +7,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [0.3.0] - 2017-11-13
 ### Added
 - Add a changelog.
-- 
 
 ### Changed
 - Start using "changelog" over "change log" since it's the common usage.
