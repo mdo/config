@@ -71,6 +71,8 @@ Enable `subl` Terminal commands, Use command: `sudo ln -s "/Applications/Sublime
 - [Google'S Totally Tooling Tips Sublime Text Setup Article](https://developers.google.com/web/shows/ttt/series-1/sublime-text-plugins?refresh=1)
 - [Check out Google Chrome guide for setting up Sublime Text 3teams documentation.](https://developers.google.com/web/tools/setup/)
 - [The short series will review devtools and setting up Chrome - Text Editor](https://developers.google.com/web/tools/setup/setup-editor)
+- https://ashleynolan.co.uk/blog/launching-sublime-from-the-terminal
+- https://gist.github.com/idleberg/fc0df222e1df258d525d704042d72582
 
 
 #### 7.2 Sublime Package Control
