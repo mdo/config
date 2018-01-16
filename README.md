@@ -119,7 +119,7 @@ Fork this repo, or just copy-paste things you need, and make it your own. **Plea
 - Read the markdown files in the [docs](https://github.com/tyler-vs/config/tree/master/docs) folder for more.
 - How use the tab key to switch between dialog buttons on Macs:
   - Article [here](http://osxdaily.com/2010/02/26/use-the-tab-key-to-switch-between-dialog-buttons-in-mac-os-x/)
-  - Quicker Gist to setup found [here](https://github.com/tyler-vs/config/docs/tab-buttons-in-mac-dialogs.md).
+  - Quicker Gist to setup found [here](https://github.com/tyler-vs/config/blob/master/docs/tab-buttons-in-mac-dialogs.md).
 
 ## Works on my machine
 
