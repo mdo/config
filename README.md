@@ -23,20 +23,19 @@
 
 - Load [`.bash_profile`](/.bash_profile)
 - Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
-- Load up the Ocean theme from <https://github.com/mdo/ocean-terminal>
+- Load up the Ocean theme from <https://github.com/mdo/ocean-terminal> or Solarized Themes from <http://ethanschoonover.com/solarized>
+- Add tab completions for git commands in terminal.app <http://code-worrier.com/blog/autocomplete-git/>
 
-### 3. Secure Git(Hub) access
+### 3. Secure GitHub access
 
 - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
 - [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled.
 
-### 4. GitHub dev setup
+### 4. GitHub development setup
 
 *Go to 6. Additional dependencies section below before reading this section.*
 
-- ~~Download the Strap setup script for GitHub's foundational development setup.~~
-- ~~Clone the `github/github` repository and run `script/osx-setup`.~~
-- Download git via homebrew `brew install git`, see [git docs](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git) for alternative installation guides.
+Download git via homebrew `brew install git`, or see [git docs](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git) for alternative installation guides.
 
 
 ### 5. Setup Ruby
@@ -62,31 +61,26 @@
 
 ### 7. Setup ~~Atom~~ [Sublime Text 3](https://www.sublimetext.com/3)
 
-#### 7.1 Enable CLI for Sublime Text 3
+#### Enable Sublime Text's command line tool `subl`
+
+> Sublime Text includes a command line tool, subl, to work with files on the command line. This can be used to open files and projects in Sublime Text, as well working as an EDITOR for unix tools, such as git and subversion.
+> from [ST3 Docs](https://www.sublimetext.com/docs/3/osx_command_line.html)
 
 Enable `subl` Terminal commands, Use command: `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl;`.
 
 
-- [Read about setting up `sublime snippets` by Rob Dodson here](http://robdodson.me/sublime-snippet-basics/)
-- [Google'S Totally Tooling Tips Sublime Text Setup Article](https://developers.google.com/web/shows/ttt/series-1/sublime-text-plugins?refresh=1)
-- [Check out Google Chrome guide for setting up Sublime Text 3teams documentation.](https://developers.google.com/web/tools/setup/)
-- [The short series will review devtools and setting up Chrome - Text Editor](https://developers.google.com/web/tools/setup/setup-editor)
-- https://ashleynolan.co.uk/blog/launching-sublime-from-the-terminal
-- https://gist.github.com/idleberg/fc0df222e1df258d525d704042d72582
+#### Use Sublime as default edior for git
 
-
-#### 7.2 Sublime Package Control
-
-- [Additional Sublime Text Packages](https://packagecontrol.io/)
-- [My list of common packages](./sublime-text-plugins.md).
-
-Setup Sublime Text as the default editor for `git`, guide found [here](https://help.github.com/articles/associating-text-editors-with-git/). 
+Allows the use of ST3 to pop up when composing git commit messages, the advantage is that ST3 has a spell checker.
 
 `git config --global core.editor "subl -n -w"`
 
-#### 7.3 Tab Completions for Git Commands
+- <https://help.github.com/articles/associating-text-editors-with-git/>
 
-Git tab completions in bash, [here is how to add git tab completions](http://code-worrier.com/blog/autocomplete-git/)
+
+#### Setup Package Control and Packages
+
+- Updated record of packages I typically use are apart of this repo and found [here](./sublime-text-plugins.md).
 
 ### 8. Customize things
 
@@ -96,9 +90,9 @@ Git tab completions in bash, [here is how to add git tab completions](http://cod
 - Type faster by going to Keyboard and moving `Key Repeat` all the way to `Fast` and `Delay until repeat` all the way to `Short`.
 - Bump up the contrast, go to Accessibility and check `Reduce Motion`, `Increase Contrast`.
 - Get 24-Hour time by going to Language and Region and checking the `Time Format` checkbox.
+- [Enable Tab Key for Navigating Mac Dialog Boxes & Buttons](./docs/tab-buttons-in-mac-dialogs.md)
 
-
-### 9. Security Customizations
+### 9. Security
 
 - [macOS Security and Privacy-Guide](https://github.com/drduh/macOS-Security-and-Privacy-Guide)
 - [EFF Privacy Guidelines available](https://www.eff.org/deeplinks/2015/11/guide-google-account-privacy-settings-students), 
@@ -118,10 +112,8 @@ Fork this repo, or just copy-paste things you need, and make it your own. **Plea
 - <http://sourabhbajaj.com/mac-setup/index.html>
 - <https://hackercodex.com/guide/mac-development-configuration/>
 - <http://robdodson.me/sublime-text-2-tips-and-shortcuts/>
-- Read the markdown files in the [docs](https://github.com/tyler-vs/config/tree/master/docs) folder for more.
-- How use the tab key to switch between dialog buttons on Macs:
-  - Article [here](http://osxdaily.com/2010/02/26/use-the-tab-key-to-switch-between-dialog-buttons-in-mac-os-x/)
-  - Quicker Gist to setup found [here](https://github.com/tyler-vs/config/blob/master/docs/tab-buttons-in-mac-dialogs.md).
+- <https://packagecontrol.io/>
+- <https://www.sublimetext.com/docs/3/>
 
 ## Works on my machine
 
