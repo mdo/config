@@ -23,8 +23,11 @@
 
 - Load [`.bash_profile`](/.bash_profile)
 - Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
-- Load up the Ocean theme from <https://github.com/mdo/ocean-terminal> or Solarized Themes from <http://ethanschoonover.com/solarized>
+- Load up the Ocean theme from <https://github.com/mdo/ocean-terminal> 
+  - Solarized Themes from <http://ethanschoonover.com/solarized>
+  - More OSX Terminal.app Themes [Here](https://github.com/lysyi3m/osx-terminal-themes.git)
 - Add tab completions for git commands in terminal.app <http://code-worrier.com/blog/autocomplete-git/>
+- Checkout recommended [Udacity styleguide for commit messages](https://udacity.github.io/git-styleguide/)
 
 ### 3. Secure GitHub access
 
