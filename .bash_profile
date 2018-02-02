@@ -3,13 +3,12 @@ export PATH=/opt/local/bin:/opt/local/sbin:${PATH}
 # Aliases
 
 ## Homebrew
-
 alias brewup='brew update; brew upgrade; brew prune; brew cleanup; brew doctor'
 
 ## Shortcuts
 alias ll='ls -al'
 # alias editgit='subl ~/.gitconfig'
-# alias editbash='subl ~/.bash_profile'
+alias editbash='subl ~/.bash_profile'
 # alias resource='source ~/.bash_profile && echo "Done!"'
 # alias vi=vim
 #alias josh=sudo
@@ -26,7 +25,7 @@ alias log='git log'
 alias branch='git branch'
 alias st='git status'
 alias fetch='git fetch'
-alias push='git push origin head'
+# alias push='git push origin head'
 alias pull='git pull'
 # alias fp='fetch && pull'
 # alias gmm='git merge master'
@@ -70,6 +69,12 @@ fi
 
 export PATH="/usr/local/bin:$PATH"
 
+# Enable tab completion
+# Already have bash completions (asee above)
+# source ~/.udacity-terminal-config/git-completion.bash
+
+# Change command prompt
+source ~/.udacity-terminal-config/git-prompt.sh
 
 # colors!
 red="\[\033[38;5;203m\]"
@@ -84,3 +89,5 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 # '\W' adds the name of the current directory
 export PS1="$red\u$green\$(__git_ps1)$blue \W
 $ $reset"
+
+
