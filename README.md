@@ -12,6 +12,12 @@
 
 ## Checklist
 
+[X] - [1. Prep OS X](1.-prep-os-x)
+[X] - [2. Prep Terminal.app](2.-prep-terminal.app)
+[X] - [3. Secure GitHub access](3.-secure-github-access)
+[X] - [4. GitHub development setup](4.-github-development-setup)
+[X] - [7. Setup Sublime Text 3](7.-setup-sublime-text-3)
+
 ### 1. Prep OS X
 
 - Download and install latest version of Xcode from the Mac App Store.
@@ -21,13 +27,22 @@
 
 ### 2. Prep Terminal.app
 
-- Load [`.bash_profile`](/.bash_profile)
+Both overlap in some functionalites, the more concise may be the Udacity configs.
+
+#### MDO configs
+
+- Load [`.bash_profile`](/.bash_profile), note that 
 - Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
-- Load up the Ocean theme from <https://github.com/mdo/ocean-terminal> 
-  - Solarized Themes from <http://ethanschoonover.com/solarized>
-  - More OSX Terminal.app Themes [Here](https://github.com/lysyi3m/osx-terminal-themes.git)
+- Load up the Ocean theme from <https://github.com/mdo/ocean-terminal>
 - Add tab completions for git commands in terminal.app <http://code-worrier.com/blog/autocomplete-git/>
-- Checkout recommended [Udacity styleguide for commit messages](https://udacity.github.io/git-styleguide/)
+
+#### Udacity configs
+
+Can also follow along setup for Udacity's terminal configuration used in the learning verion control course. See the [udacity-terminal-config directory](./udacity-terminal-config)
+
+- Load [`.bash_profile`](./udacity-terminal-config/bash_profile), prepend dot to file name.
+- Load [`.git-completions.bash`](./udacity-terminal-config/.git-completions.bash)
+- Load [`.git-prompt`](./udacity-terminal-config/.git-prompt)
 
 ### 3. Secure GitHub access
 
@@ -36,7 +51,7 @@
 
 ### 4. GitHub development setup
 
-*Go to 6. Additional dependencies section below before reading this section.*
+*Go to [6. Additional dependencies](6.-additional-dependencies) section below before reading this section.*
 
 Download git via homebrew `brew install git`, or see [git docs](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git) for alternative installation guides.
 
@@ -62,17 +77,21 @@ Download git via homebrew `brew install git`, or see [git docs](https://git-scm.
 - [Homebrew Commands Cheatsheet](https://devhints.io/homebrew).
 
 
-### 7. Setup ~~Atom~~ [Sublime Text 3](https://www.sublimetext.com/3)
+### 7. Setup Sublime Text 3
 
-#### Enable Sublime Text's command line tool `subl`
+#### Enable Command Line Tool `subl` for Sublime Text
 
 > Sublime Text includes a command line tool, subl, to work with files on the command line. This can be used to open files and projects in Sublime Text, as well working as an EDITOR for unix tools, such as git and subversion.
 > from [ST3 Docs](https://www.sublimetext.com/docs/3/osx_command_line.html)
 
-Enable `subl` Terminal commands, Use command: `sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl;`.
+Enable `subl` terminal commands, by entering in the terminal:
+
+```
+sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl;
+```
 
 
-#### Use Sublime as default edior for git
+#### Use Sublime as the default edior for git
 
 Allows the use of ST3 to pop up when composing git commit messages, the advantage is that ST3 has a spell checker.
 
@@ -83,7 +102,7 @@ Allows the use of ST3 to pop up when composing git commit messages, the advantag
 
 #### Setup Package Control and Packages
 
-- Updated record of packages I typically use are apart of this repo and found [here](./sublime-text-plugins.md).
+- Updated record of packages I typically use are apart of this repo and found [here](./docs/sublime-plugins.md).
 
 ### 8. Customize things
 
