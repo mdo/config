@@ -12,11 +12,11 @@
 
 ## Checklist
 
-[X] - [1. Prep OS X](1.-prep-os-x)
-[X] - [2. Prep Terminal.app](2.-prep-terminal.app)
-[X] - [3. Secure GitHub access](3.-secure-github-access)
-[X] - [4. GitHub development setup](4.-github-development-setup)
-[X] - [7. Setup Sublime Text 3](7.-setup-sublime-text-3)
+ - [X] [1. Prep OS X](#1.-prep-os-x)
+ - [X] [2. Prep Terminal.app](#2.-prep-terminal.app)
+ - [X] [3. Secure GitHub access](#3.-secure-github-access)
+ - [X] [4. GitHub development setup](#4.-github-development-setup)
+ - [X] [7. Setup Sublime Text 3](#7.-setup-sublime-text-3)
 
 ### 1. Prep OS X
 
