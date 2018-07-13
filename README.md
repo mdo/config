@@ -2,25 +2,25 @@
 
 **Config** is a basic checklist I follow to set up a new Mac's development environment. It gets me up to speed with Git, Ruby, GitHub, Jekyll, and more so I can more quickly get back to coding.
 
+## Contents
 
 <!-- MarkdownTOC -->
 
-- Contents
-- Checklist
-  - 1. Prep OS X
-  - 2. Prep Terminal.app
-    - MDO configs
-    - Udacity configs
-  - 3. Secure GitHub access
-  - 4. GitHub development setup
-  - 5. Setup Ruby
-  - 6. Additional dependencies
-  - 7. Setup Sublime Text 3
-    - Enable Command Line Tool `subl` for Sublime Text
-    - Use Sublime as the default edior for git
-    - Setup Package Control and Packages
-  - 8. Customize things
-  - 9. Security
+- 1. Prep OS X
+- 2. Prep Terminal.app
+  - MDO configs
+  - Udacity configs
+- 3. Secure GitHub access
+- 4. GitHub development setup
+- 5. Setup Ruby
+- 6. Additional dependencies
+- 7. Setup Sublime Text 3
+  - Enable Command Line Tool `subl` for Sublime Text
+  - Use Sublime as the default editor for git
+  - Setup Package Control and Packages
+- 8. Customize things
+  - How to Enable Tab Key for Navigating Mac Dialog Boxes & Buttons
+- 9. Security
 - Use it yourself
 - Supplementary Material
 - Works on my machine
@@ -28,15 +28,12 @@
 <!-- /MarkdownTOC -->
 
 
-## Contents
 
 | File | Description |
 | --- | --- |
 | `.bash_profile` | Customizes the Terminal.app prompt and echoes the currently checked out Git branch. |
 | `.gitconfig` | Global Git configuration to specify my name and email, shortcuts, colors, and more. |
-| `.gitignore` | The ignore file from [twbs/bootstrap](https://github.com/twbs/bootstrap) that I use everywhere. |
-
-## Checklist
+| `.gitignore` | The ignore file from [twbs/bootstrap](https://github.com/twbs/bootstrap) that I use everywhere. |
 
 ### 1. Prep OS X
 
@@ -47,7 +44,7 @@
 
 ### 2. Prep Terminal.app
 
-Both overlap in some functionalites, the more concise may be the Udacity configs.
+Both overlap in some functionalities, the more concise may be the Udacity configs.
 
 #### MDO configs
 
@@ -58,22 +55,22 @@ Both overlap in some functionalites, the more concise may be the Udacity configs
 
 #### Udacity configs
 
-Can also follow along setup for Udacity's terminal configuration used in the learning verion control course. See the [udacity-terminal-config directory](./udacity-terminal-config)
+Can also follow along setup for Udacity's terminal configuration used in the learning version control course. See the [udacity-terminal-config directory](./udacity-terminal-config)
 
-- Load [`.bash_profile`](./udacity-terminal-config/bash_profile), prepend dot to file name.
+- Load [`.bash_profile`](./udacity-terminal-config/bash_profile), append dot to file name.
 - Load [`.git-completions.bash`](./udacity-terminal-config/.git-completions.bash)
 - Load [`.git-prompt`](./udacity-terminal-config/.git-prompt)
 
 ### 3. Secure GitHub access
 
 - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
-- [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled.
+- [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to authorize your GitHub account when 2FA is enabled.
 
 ### 4. GitHub development setup
 
 *Go to [6. Additional dependencies](6.-additional-dependencies) section below before reading this section.*
 
-Download git via homebrew `brew install git`, or see [git docs](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git) for alternative installation guides.
+Download git via Homebrew `brew install git`, or see [git docs](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git) for alternative installation guides.
 
 
 ### 5. Setup Ruby
@@ -111,7 +108,7 @@ sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr
 ```
 
 
-#### Use Sublime as the default edior for git
+#### Use Sublime as the default editor for git
 
 Allows the use of ST3 to pop up when composing git commit messages, the advantage is that ST3 has a spell checker.
 
@@ -131,8 +128,22 @@ Allows the use of ST3 to pop up when composing git commit messages, the advantag
 - Set sidebar icons to Small
 - Type faster by going to Keyboard and moving `Key Repeat` all the way to `Fast` and `Delay until repeat` all the way to `Short`.
 - Bump up the contrast, go to Accessibility and check `Reduce Motion`, `Increase Contrast`.
-- Get 24-Hour time by going to Language and Region and checking the `Time Format` checkbox.
+- Get 24-Hour time by going to Language and Region and checking the `Time Format` check box.
 - [Enable Tab Key for Navigating Mac Dialog Boxes & Buttons](./docs/tab-buttons-in-mac-dialogs.md)
+- [Add `CMD + SHIFT + .` shortcut key to show/hide hidden files in Finder.app](https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/)
+
+#### How to Enable Tab Key for Navigating Mac Dialog Boxes & Buttons
+
+Original article by [osxdaily](http://osxdaily.com) found [here](http://osxdaily.com/2010/02/26/use-the-tab-key-to-switch-between-dialog-buttons-in-mac-os-x/).
+
+Quick guide:
+
+01. Launch System Preferences from the  Apple menu
+02. Click on the “Keyboards” preference panel
+03. Select the “Shortcuts” tab (sometimes called “Keyboard Shortcuts” in older versions of OS X)
+04. Look near the bottom of the window for a mention of “Full Keyboard Access: In windows and dialogs, press Tab to move keyboard focus between:” and click to select the radio button next to “All controls”*
+05. Close System Preferences
+
 
 ### 9. Security
 
