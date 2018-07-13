@@ -17,7 +17,7 @@
 - 7. Setup Sublime Text 3
   - Enable Command Line Tool `subl` for Sublime Text
   - Use Sublime as the default editor for git
-  - Setup Package Control and Packages
+  - Setup Package Control & Packages
 - 8. Customize things
   - How to Enable Tab Key for Navigating Mac Dialog Boxes & Buttons
 - 9. Security
@@ -117,9 +117,26 @@ Allows the use of ST3 to pop up when composing git commit messages, the advantag
 - <https://help.github.com/articles/associating-text-editors-with-git/>
 
 
-#### Setup Package Control and Packages
+#### Setup Package Control & Packages
 
-- Updated record of packages I typically use are apart of this repo and found [here](./docs/sublime-plugins.md).
+- [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
+- [Emmet](https://packagecontrol.io/packages/Emmet)
+- [Git](https://packagecontrol.io/packages/Git)
+- [GitGutter](https://packagecontrol.io/packages/GitGutter)
+- [Trailing Spaces](https://packagecontrol.io/packages/TrailingSpaces)
+- [HTML-CSS_JS Prettify](https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify)
+- [Sublime Linter](https://packagecontrol.io/packages/SublimeLinter)
+- [DocBlockr](https://packagecontrol.io/packages/DocBlockr)
+- [TerminalView](https://packagecontrol.io/packages/TerminalView)
+- [SCSS](https://packagecontrol.io/packages/SCSS)
+- [Sass](https://packagecontrol.io/packages/Sass)
+- [Markdown Extended](https://packagecontrol.io/packages/Markdown%20Extended)
+- [AdvanceNewFile](https://packagecontrol.io/packages/AdvancedNewFile)
+- [Markdown Editing](https://packagecontrol.io/packages/MarkdownEditing)
+- [EditorConfig](https://packagecontrol.io/packages/EditorConfig)
+- [SideBarEnhancements](https://packagecontrol.io/packages/SideBarEnhancements)
+- **[Sublime Tutor](https://packagecontrol.io/packages/Sublime%20Tutor)**
+- [MarkdownTOC](https://packagecontrol.io/packages/MarkdownTOC)
 
 ### 8. Customize things
 
