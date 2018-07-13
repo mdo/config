@@ -2,6 +2,32 @@
 
 **Config** is a basic checklist I follow to set up a new Mac's development environment. It gets me up to speed with Git, Ruby, GitHub, Jekyll, and more so I can more quickly get back to coding.
 
+
+<!-- MarkdownTOC -->
+
+- Contents
+- Checklist
+  - 1. Prep OS X
+  - 2. Prep Terminal.app
+    - MDO configs
+    - Udacity configs
+  - 3. Secure GitHub access
+  - 4. GitHub development setup
+  - 5. Setup Ruby
+  - 6. Additional dependencies
+  - 7. Setup Sublime Text 3
+    - Enable Command Line Tool `subl` for Sublime Text
+    - Use Sublime as the default edior for git
+    - Setup Package Control and Packages
+  - 8. Customize things
+  - 9. Security
+- Use it yourself
+- Supplementary Material
+- Works on my machine
+
+<!-- /MarkdownTOC -->
+
+
 ## Contents
 
 | File | Description |
@@ -11,12 +37,6 @@
 | `.gitignore` | The ignore file from [twbs/bootstrap](https://github.com/twbs/bootstrap) that I use everywhere. |
 
 ## Checklist
-
- - [X] [1. Prep OS X](#1.-prep-os-x)
- - [X] [2. Prep Terminal.app](#2.-prep-terminal.app)
- - [X] [3. Secure GitHub access](#3.-secure-github-access)
- - [X] [4. GitHub development setup](#4.-github-development-setup)
- - [X] [7. Setup Sublime Text 3](#7.-setup-sublime-text-3)
 
 ### 1. Prep OS X
 
