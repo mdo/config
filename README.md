@@ -1,5 +1,7 @@
 # [Config](https://github.com/tyler-vs/config)
 
+![sublime text screen shot](https://user-images.githubusercontent.com/9139991/42735926-aad7965e-882a-11e8-91c8-99b0fd4cb2d4.png)
+
 **Config** is a basic checklist I follow to set up a new Mac's development environment. It gets me up to speed with Git, Ruby, GitHub, Jekyll, and more so I can more quickly get back to coding.
 
 Hello world!
