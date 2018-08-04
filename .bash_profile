@@ -19,6 +19,10 @@ alias st='git status'
 alias fetch='git fetch'
 alias pull='git pull'
 
+## Sublime text snippets shortcut
+SNIPPETS=sublime-snippets
+alias st3snippets='cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/${SNIPPETS}; ll'
+
 ## Switch repos
 DIR=~/Sites
 alias h='cd ~/'
