@@ -66,6 +66,10 @@ Can also follow along setup for Udacity's terminal configuration used in the lea
 - Load [`.git-completions.bash`](./udacity-terminal-config/.git-completions.bash)
 - Load [`.git-prompt`](./udacity-terminal-config/.git-prompt)
 
+#### Brewfile
+
+Some recommended software can be installed via Homebrew. The process on using a Brewfile is outlined in this [tutorial](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/). Move the [`Brewfile`](./Brewfile) into the `/Users/<you>` root directory.
+
 ### 3. Secure GitHub access
 
 - [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
