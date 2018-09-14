@@ -14,6 +14,7 @@ Hello world!
 - 2. Prep Terminal.app
   - MDO configs
   - Udacity configs
+  - Brewfile
 - 3. Secure GitHub access
 - 4. GitHub development setup
 - 5. Setup Ruby
@@ -195,8 +196,7 @@ Allows the use of ST3 to pop up when composing git commit messages, the advantag
     "draw_active"
   ],
   "line_padding_bottom": 1,
-  "line_padding_top": 1,
-  "rulers":
+  "line_padding_top": 1,  "rulers":
   [
     80,
     100
@@ -223,6 +223,10 @@ Allows the use of ST3 to pop up when composing git commit messages, the advantag
 - Get 24-Hour time by going to Language and Region and checking the `Time Format` check box.
 - [Enable Tab Key for Navigating Mac Dialog Boxes & Buttons](./docs/tab-buttons-in-mac-dialogs.md)
 - [Add `CMD + SHIFT + .` shortcut key to show/hide hidden files in Finder.app](https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/)
+- Add Source Code Pro 
+  + Download: https://github.com/adobe-fonts/source-code-pro
+  + Setup: `brew tap caskroom/fonts && brew cask install font-source-code-pro`
+  + Alternatively, download and [install](https://support.apple.com/en-us/HT201749)
 
 #### How to Enable Tab Key for Navigating Mac Dialog Boxes & Buttons
 
