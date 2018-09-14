@@ -6,10 +6,8 @@
 <!-- code: https://github.com/aziz/tmTheme-Editor -->
 <plist version="1.0">
 <dict>
-	<key>author</key>
-	<string>Domenico Carbotta</string>
 	<key>name</key>
-	<string>IDLE</string>
+	<string>Notepad-Plus-Plus</string>
 	<key>settings</key>
 	<array>
 		<dict>
@@ -24,9 +22,9 @@
 				<key>invisibles</key>
 				<string>#BFBFBF</string>
 				<key>lineHighlight</key>
-				<string>#00000012</string>
+				<string>#EEF1F5</string>
 				<key>selection</key>
-				<string>#BAD6FD</string>
+				<string>#A7CAFF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -36,8 +34,10 @@
 			<string>comment</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
-				<string>#919191</string>
+				<string>#3C802C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -47,8 +47,10 @@
 			<string>string</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#00A33F</string>
+				<string>#777777</string>
 			</dict>
 		</dict>
 		<dict>
@@ -58,6 +60,8 @@
 			<string>constant.numeric</string>
 			<key>settings</key>
 			<dict>
+				<key>foreground</key>
+				<string>#0F20F6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -67,8 +71,10 @@
 			<string>constant.language</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#A535AE</string>
+				<string>#916319</string>
 			</dict>
 		</dict>
 		<dict>
@@ -78,15 +84,23 @@
 			<string>constant.character, constant.other</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#916319</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Variable</string>
 			<key>scope</key>
-			<string>variable.language, variable.other</string>
+			<string>variable</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -96,8 +110,10 @@
 			<string>keyword</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#FF5600</string>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
@@ -107,19 +123,21 @@
 			<string>storage</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#FF5600</string>
+				<string>#AA2063</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Type name</string>
+			<string>Class name</string>
 			<key>scope</key>
-			<string>entity.name.type</string>
+			<string>entity.name.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#21439C</string>
+				<string>#291FB7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -129,6 +147,8 @@
 			<string>entity.other.inherited-class</string>
 			<key>settings</key>
 			<dict>
+				<key>foreground</key>
+				<string>#CC4C07</string>
 			</dict>
 		</dict>
 		<dict>
@@ -138,8 +158,10 @@
 			<string>entity.name.function</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#21439C</string>
+				<string>#0000FF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -149,6 +171,10 @@
 			<string>variable.parameter</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#C96916</string>
 			</dict>
 		</dict>
 		<dict>
@@ -158,6 +184,10 @@
 			<string>entity.name.tag</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#291FB7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -167,6 +197,10 @@
 			<string>entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#881181</string>
 			</dict>
 		</dict>
 		<dict>
@@ -176,41 +210,60 @@
 			<string>support.function</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#A535AE</string>
+				<string>#0000FF</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Library constant</string>
+			<string>Class Variable</string>
 			<key>scope</key>
-			<string>support.constant</string>
+			<string>variable.other, variable.js, punctuation.separator.variable</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#A535AE</string>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Library class&#x2f;type</string>
+			<string>Language Constant</string>
 			<key>scope</key>
-			<string>support.type, support.class</string>
+			<string>constant.language</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
-				<string>#A535AE</string>
+				<string>#000000</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Library variable</string>
+			<string>Keyword Operator</string>
 			<key>scope</key>
-			<string>support.variable</string>
+			<string>keyword.operator, declaration.function.operator, meta.preprocessor.c.include</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#0000FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Meta Brace</string>
+			<key>scope</key>
+			<string>punctuation.section.embedded -(source string source punctuation.section.embedded), meta.brace.erb.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A535AE</string>
+				<string>#F02A1D</string>
 			</dict>
 		</dict>
 		<dict>
@@ -220,31 +273,53 @@
 			<string>invalid</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#990000</string>
 				<key>foreground</key>
-				<string>#FFFFFF</string>
+				<string>#EB291C</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>String interpolation</string>
+			<string>Normal Variable</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#000000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Function Call</string>
 			<key>scope</key>
-			<string>constant.other.placeholder.py</string>
+			<string>meta.function-call</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#0000FF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword Control</string>
+			<key>scope</key>
+			<string>keyword.control</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#990000</string>
+				<string>#C96916</string>
 			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
-	<string>DDC0CBE1-442B-4CB5-80E4-26E4CFB3A277</string>
+	<string>57E9F1F4-9556-47AF-A24D-61BFA4E53138</string>
 	<key>colorSpaceName</key>
 	<string>sRGB</string>
 	<key>semanticClass</key>
-	<string>theme.light.idle</string>
+	<string>theme.light.notepad_plus_plus</string>
 </dict>
 </plist>
