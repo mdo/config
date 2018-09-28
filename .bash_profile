@@ -19,8 +19,8 @@ export PATH=/opt/local/bin:/opt/local/sbin:${PATH}
 
 ## Shortcuts
 alias ll='ls -al'
-alias editgit='atom ~/.gitconfig'
-alias editbash='atom ~/.bash_profile'
+alias editgit='atom-beta ~/.gitconfig'
+alias editbash='atom-beta ~/.bash_profile'
 alias resource='source ~/.bash_profile && echo "Done!"'
 alias vi=vim
 alias josh=sudo
