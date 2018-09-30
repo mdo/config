@@ -17,7 +17,7 @@ This repository includes a shell script for executing the bulk of the configurat
 curl https://raw.githubusercontent.com/mdo/config/master/config.sh > ~/Downloads/config.sh && bash ~/Downloads/config.sh
 ```
 
-Many of the included macOS Terminal customizations are taken from <https://github.com/pawelgrzybek/dotfiles>.
+Many of the included macOS Terminal customizations are taken from <https://github.com/pawelgrzybek/dotfiles> and <https://github.com/mathiasbynens/dotfiles>.
 
 ## Checklist
 
