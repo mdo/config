@@ -141,10 +141,6 @@ printf "%s\n# Adjusting macOS...\n%s" $yellow $end
   defaults write com.apple.finder NewWindowTarget -string "PfDe"
   defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Desktop/"
 
-  # Restart Finder and Dock
-  killall Finder
-  killall Dock
-
   # Save & Print
   #
   # Expand save and print modals by default
@@ -177,6 +173,8 @@ printf "%s\n# Adjusting macOS...\n%s" $yellow $end
   defaults write com.apple.dashboard mcx-disabled -bool true
   # Don’t show Dashboard as a Space
   defaults write com.apple.dock dashboard-in-overlay -bool true
+  # Show battery percentage in menu bar
+  defaults write com.apple.menuextra.battery ShowPercent -string "YES"
 
   # Safari
   #
@@ -200,6 +198,10 @@ printf "%s\n# Adjusting macOS...\n%s" $yellow $end
   #
   # Disable the annoying line marks
   defaults write com.apple.Terminal ShowLineMarks -int 0
+
+  # Restart Finder and Dock (though many changes need a restart/relog)
+  killall Finder
+  killall Dock
 
 } &> /dev/null
 printf "%sDone!\n%s" $green $end
