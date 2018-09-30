@@ -117,6 +117,8 @@ printf "%s\n# Adjusting macOS...\n%s" $yellow $end
   # Clear out the dock of default icons
   defaults delete com.apple.dock persistent-apps
   defaults delete com.apple.dock persistent-others
+  # Don’t show recent applications in Dock
+  defaults write com.apple.dock show-recents -bool false
 
   # Finder
   #
@@ -126,10 +128,18 @@ printf "%s\n# Adjusting macOS...\n%s" $yellow $end
   defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
   # Show path bar
   defaults write com.apple.finder ShowPathbar -bool true
+  # Finder: show status bar
+  defaults write com.apple.finder ShowStatusBar -bool true
   # Set sidebar icon size to small
   defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 1
+  # When performing a search, search the current folder by default
+  defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
   # Prevent .DS_Store files
   defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
+  # Set Desktop as the default location for new Finder windows
+  # For other paths, use `PfLo` and `file:///full/path/here/`
+  defaults write com.apple.finder NewWindowTarget -string "PfDe"
+  defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/Desktop/"
 
   # Restart Finder and Dock
   killall Finder
@@ -156,10 +166,17 @@ printf "%s\n# Adjusting macOS...\n%s" $yellow $end
   # Hot corner: Bottom right, put display to sleep
   defaults write com.apple.dock wvous-br-corner -int 10
   defaults write com.apple.dock wvous-br-modifier -int 0
+  # Require password immediately after sleep or screen saver begins
+  defaults write com.apple.screensaver askForPassword -int 1
+  defaults write com.apple.screensaver askForPasswordDelay -int 0
   # Enable tap to click for trackpad
   defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Clicking -bool true
   # Disable keyboard autocorrect
   defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
+  # Disable Dashboard
+  defaults write com.apple.dashboard mcx-disabled -bool true
+  # Don’t show Dashboard as a Space
+  defaults write com.apple.dock dashboard-in-overlay -bool true
 
   # Safari
   #
