@@ -17,7 +17,7 @@ end=$'\e[0m'
 #
 
 bin_dir="/usr/local/bin"
-work_dir="$HOME/test/"
+work_dir="$HOME/work/"
 github_dir="$HOME/github/"
 ruby_version="2.3.7"
 
@@ -35,7 +35,7 @@ dotfiles=( bash_profile gitconfig )
 for file in "${dotfiles[@]}"
 do
   printf "%s  - .$file%s"
-  if [[ ! -e "$HOME/.$file" ]]; then
+  if [[ ! -e "$HOMwE/.$file" ]]; then
     {
       curl https://raw.githubusercontent.com/mdo/config/master/.$file > $HOME/.$file
     } &> /dev/null
