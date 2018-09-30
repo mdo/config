@@ -10,6 +10,15 @@
 | `.gitconfig` | Global Git configuration to specify my name and email, shortcuts, colors, and more. |
 | `.gitignore` | The ignore file from [twbs/bootstrap](https://github.com/twbs/bootstrap) that I use everywhere. |
 
+## Shell script
+This repository includes a shell script for executing the bulk of the configuration process. First, install and agree to terms for Xcode, then download and run Strap. Then, enter the following in Terminal:
+
+```bash
+curl https://raw.githubusercontent.com/mdo/config/master/config.sh > ~/Downloads/config.sh && bash ~/Downloads/config.sh
+```
+
+Many of the included macOS Terminal customizations are taken from <https://github.com/pawelgrzybek/dotfiles>.
+
 ## Checklist
 
 ### 1. Prep OS X
