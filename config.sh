@@ -31,7 +31,7 @@ end=$'\e[0m'
 bin_dir="/usr/local/bin"
 work_dir="$HOME/work/"
 github_dir="$HOME/github/"
-ruby_version="2.3.7"
+ruby_version="2.5.1"
 
 printf "%s\n======================================================================\n%s" $yellow $end
 printf "%s# Loading mdo/config\n%s" $yellow $end
@@ -291,7 +291,7 @@ done
 
 printf "%s\n# Installing Atom packages...\n%s" $yellow $end
 
-atom_packages=( "atom-wrap-in-tag" "selector-to-tag" editorconfig "markdown-writer" "import-sf-mono" )
+atom_packages=( "atom-wrap-in-tag" "selector-to-tag" editorconfig "markdown-writer" "import-sf-mono" "mojave-dark-mode" )
 for package in "${atom_packages[@]}"
 do
   printf "%s  - $package%s"
