@@ -47,8 +47,8 @@ Many of the included macOS Terminal customizations are taken from <https://githu
 ### 5. Setup Ruby
 
 - Install rbenv via Homebrew: `brew install rbenv`.
-- Download a version of Ruby via rbenv (e.g., `rbenv install 2.2.5`). See <https://gorails.com/setup/osx/10.11-el-capitan>.
-- Make it the global version of Ruby: `rbenv global 2.2.5`.
+- Download a version of Ruby via rbenv (e.g., `rbenv install 2.5.1`). See <https://gorails.com/setup/osx/10.11-el-capitan>.
+- Make it the global version of Ruby: `rbenv global 2.5.1`.
 
 *Installing and managing Ruby with rbenv allows us to specify versions of Ruby on a per-project basis. It also means we can avoid running sudo commands for installing gems and more as it's not affecting OS X's system Ruby.*
 
