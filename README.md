@@ -10,7 +10,7 @@
 | `.gitconfig` | Global Git configuration to specify my name and email, shortcuts, colors, and more. |
 | `.gitignore` | The ignore file from [twbs/bootstrap](https://github.com/twbs/bootstrap) that I use everywhere. |
 
-## Shell script
+## Shell script (WIP)
 This repository includes a shell script for executing the bulk of the configuration process. First, install and agree to terms for Xcode, then download and run Strap. Then, enter the following in Terminal:
 
 ```bash
@@ -36,7 +36,6 @@ Many of the included macOS Terminal customizations are taken from <https://githu
 
 ### 3. Secure Git(Hub) access
 
-- [Generate new SSH key](https://help.github.com/articles/generating-ssh-keys/)
 - [Generate an access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/) for Terminal to auth your GitHub account when 2FA is enabled.
 
 ### 4. GitHub dev setup
