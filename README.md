@@ -57,7 +57,7 @@ Both overlap in some functionalities, the more concise may be the Udacity config
 - Load [`.bash_profile`](/.bash_profile), note that 
 - Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
 - Load up the Ocean theme from <https://github.com/mdo/ocean-terminal>
-- Add tab completions for git commands in terminal.app <http://code-worrier.com/blog/autocomplete-git/>
+- Add tab completions for git commands in terminal.app <https://github.com/bobthecow/git-flow-completion/wiki/Install-Bash-git-completion>
 
 #### Udacity configs
 
@@ -66,10 +66,6 @@ Can also follow along setup for Udacity's terminal configuration used in the lea
 - Load [`.bash_profile`](./udacity-terminal-config/bash_profile), append dot to file name.
 - Load [`.git-completions.bash`](./udacity-terminal-config/.git-completions.bash)
 - Load [`.git-prompt`](./udacity-terminal-config/.git-prompt)
-
-#### Brewfile
-
-Some recommended software can be installed via Homebrew. The process on using a Brewfile is outlined in this [tutorial](https://www.taniarascia.com/setting-up-a-brand-new-mac-for-development/). Move the [`Brewfile`](./Brewfile) into the `/Users/<you>` root directory.
 
 ### 3. Secure GitHub access
 
@@ -117,6 +113,15 @@ Enable `subl` terminal commands, by entering in the terminal:
 sudo ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl;
 ```
 
+#### Install Sublime Merge
+
+Add support for `smerge` command in `.bash_profile`
+
+```
+PATH="/Applications/Sublime Merge.app/Contents/SharedSupport/bin:{$PATH}"
+export PATH
+
+```
 
 #### Use Sublime as the default editor for git
 
@@ -131,15 +136,16 @@ Allows the use of ST3 to pop up when composing git commit messages, the advantag
 
 - [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
 - [Emmet](https://packagecontrol.io/packages/Emmet)
-- [Git](https://packagecontrol.io/packages/Git)
+- ~~[Git](https://packagecontrol.io/packages/Git)~~ Now built into Sublime text
 - [GitGutter](https://packagecontrol.io/packages/GitGutter)
-- [Trailing Spaces](https://packagecontrol.io/packages/TrailingSpaces)
+- ~~[Trailing Spaces](https://packagecontrol.io/packages/TrailingSpaces)~~
 - [HTML-CSS_JS Prettify](https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify)
 - [Sublime Linter](https://packagecontrol.io/packages/SublimeLinter)
 - [DocBlockr](https://packagecontrol.io/packages/DocBlockr)
 - [TerminalView](https://packagecontrol.io/packages/TerminalView)
 - [SCSS](https://packagecontrol.io/packages/SCSS)
 - [Sass](https://packagecontrol.io/packages/Sass)
+- [Liquid](https://packagecontrol.io/packages/Liquid)
 - [Markdown Extended](https://packagecontrol.io/packages/Markdown%20Extended)
 - [AdvanceNewFile](https://packagecontrol.io/packages/AdvancedNewFile)
 - [Markdown Editing](https://packagecontrol.io/packages/MarkdownEditing)
@@ -153,62 +159,130 @@ Allows the use of ST3 to pop up when composing git commit messages, the advantag
 
 ```
 {
-  "added_words":
-  [
-    "datatypes",
-    "workflow",
-    "plugin",
-    "viewport",
-    "Udacity"
-  ],
-  "atomic_save": "false",
-  "binary_file_patterns":
-  [
-    "node_modules/*",
-    "bower_components/*"
-  ],
-  "bold_folder_labels": true,
-  "caret_style": "phase",
-  "color_scheme": "Packages/User/SublimeLinter/Mariana (SL).tmTheme",
-  "fade_fold_buttons": false,
-  "folder_exclude_patterns":
-  [
-    ".svn",
-    ".git",
-    ".hg",
-    "CVS",
-    ".sass-cache"
-  ],
-  "font_options":
-  [
-    "gray_antialias"
-  ],
-  "font_size": 14,
-  "highlight_line": true,
-  "highlight_modified_tabs": true,
-  "ignored_packages":
-  [
-    "Vintage"
-  ],
-  "indent_guide_options":
-  [
-    "draw_normal",
-    "draw_active"
-  ],
-  "line_padding_bottom": 1,
-  "line_padding_top": 1,  "rulers":
-  [
-    80,
-    100
-  ],
-  "tab_size": 2,
-  "theme": "Boxy Tomorrow.sublime-theme",
-  "theme_primer_sidebar_tree_large": true,
-  "theme_primer_tab_active_green": true,
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true,
-  "word_wrap": true,
-  "wrap_width": 80
+	"added_words":
+	[
+		"datatypes",
+		"workflow",
+		"plugin",
+		"viewport",
+		"Udacity",
+		"Shopify"
+	],
+	"atomic_save": "false",
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_with_fields": true,
+	"binary_file_patterns":
+	[
+		"node_modules/*",
+		"bower_components/*"
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (light).tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache"
+	],
+	"font_options":
+	[
+		"gray_antialias"
+	],
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Markdown",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"rulers":
+	[
+		80,
+		100
+	],
+	"show_encoding": true,
+	"show_line_endings": true,
+	"tab_size": 2,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true,
+	"wrap_width": 80
+}
+{
+	"added_words":
+	[
+		"datatypes",
+		"workflow",
+		"plugin",
+		"viewport",
+		"Udacity",
+		"Shopify"
+	],
+	"atomic_save": "false",
+	"auto_complete_commit_on_tab": true,
+	"auto_complete_with_fields": true,
+	"binary_file_patterns":
+	[
+		"node_modules/*",
+		"bower_components/*"
+	],
+	"bold_folder_labels": true,
+	"color_scheme": "Packages/User/Color Highlighter/themes/Solarized (light).tmTheme",
+	"ensure_newline_at_eof_on_save": true,
+	"fade_fold_buttons": false,
+	"folder_exclude_patterns":
+	[
+		".svn",
+		".git",
+		".hg",
+		"CVS",
+		".sass-cache"
+	],
+	"font_options":
+	[
+		"gray_antialias"
+	],
+	"font_size": 12,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Markdown",
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 1,
+	"line_padding_top": 1,
+	"rulers":
+	[
+		80,
+		100
+	],
+	"show_encoding": true,
+	"show_line_endings": true,
+	"tab_size": 2,
+	"theme": "Adaptive.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": true,
+	"wrap_width": 80
 }
 
 ```
@@ -221,7 +295,6 @@ Allows the use of ST3 to pop up when composing git commit messages, the advantag
 - Type faster by going to Keyboard and moving `Key Repeat` all the way to `Fast` and `Delay until repeat` all the way to `Short`.
 - Bump up the contrast, go to Accessibility and check `Reduce Motion`, `Increase Contrast`.
 - Get 24-Hour time by going to Language and Region and checking the `Time Format` check box.
-- [Enable Tab Key for Navigating Mac Dialog Boxes & Buttons](./docs/tab-buttons-in-mac-dialogs.md)
 - [Add `CMD + SHIFT + .` shortcut key to show/hide hidden files in Finder.app](https://ianlunn.co.uk/articles/quickly-showhide-hidden-files-mac-os-x-mavericks/)
 - Add Source Code Pro 
   + Download: https://github.com/adobe-fonts/source-code-pro
