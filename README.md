@@ -8,27 +8,23 @@ Hello world!
 
 <!-- MarkdownTOC -->
 
-- 1. Prep OS X
-- 2. Prep Terminal.app
+1. Prep OS X
+2. Prep Terminal.app
   - MDO configs
   - Udacity configs
   - Brewfile
-- 3. Secure GitHub access
-- 4. GitHub development setup
-- 5. Setup Ruby
-- 6. Additional dependencies
-- 7. Setup Sublime Text 3
+3. Secure GitHub access
+4. GitHub development setup
+5. Setup Ruby
+6. Additional dependencies
+7. Setup Sublime Text 3
   - Enable Command Line Tool `subl` for Sublime Text
   - Use Sublime as the default editor for git
   - Setup Package Control & Packages
     - User Preferences
-- 8. Customize things
+8. Customize things
   - How to Enable Tab Key for Navigating Mac Dialog Boxes & Buttons
-- 9. Security
-- Use it yourself
-- Supplementary Material
-- Works on my machine
-
+9. Security
 <!-- /MarkdownTOC -->
 
 
