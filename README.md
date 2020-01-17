@@ -284,6 +284,9 @@ Allows the use of ST3 to pop up when composing git commit messages, the advantag
 ### 8. Customize things
 
 - Disable LCD font smoothing
+- Configure Security & Privacy settings
+  - [x] Require password immediately
+  - [x] Show a message when screen is locked > Set Lock Message > Add Name & Phone Number
 - Hide desktop icons with `defaults write com.apple.finder CreateDesktop false; killall Finder`
 - Set sidebar icons to Small
 - Type faster by going to Keyboard and moving `Key Repeat` all the way to `Fast` and `Delay until repeat` all the way to `Short`.
