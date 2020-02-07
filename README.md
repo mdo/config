@@ -128,13 +128,13 @@ Allows the use of ST3 to pop up when composing git commit messages, the advantag
 
 #### Setup Package Control & Packages
 
+Can CMD + Shift + P > Install Package > type in the below plugins
+
+- **[Sublime Tutor](https://packagecontrol.io/packages/Sublime%20Tutor)**
 - [BracketHighlighter](https://packagecontrol.io/packages/BracketHighlighter)
 - [Emmet](https://packagecontrol.io/packages/Emmet)
-- ~~[Git](https://packagecontrol.io/packages/Git)~~ Now built into Sublime text
 - [GitGutter](https://packagecontrol.io/packages/GitGutter)
-- ~~[Trailing Spaces](https://packagecontrol.io/packages/TrailingSpaces)~~
-- [HTML-CSS_JS Prettify](https://packagecontrol.io/packages/HTML-CSS-JS%20Prettify)
-- [Sublime Linter](https://packagecontrol.io/packages/SublimeLinter)
+- [Sublime Linter](https://packagecontrol.io/packages/SublimeLinter) (requires npm)
 - [DocBlockr](https://packagecontrol.io/packages/DocBlockr)
 - [TerminalView](https://packagecontrol.io/packages/TerminalView)
 - [SCSS](https://packagecontrol.io/packages/SCSS)
@@ -145,9 +145,20 @@ Allows the use of ST3 to pop up when composing git commit messages, the advantag
 - [Markdown Editing](https://packagecontrol.io/packages/MarkdownEditing)
 - [EditorConfig](https://packagecontrol.io/packages/EditorConfig)
 - [SideBarEnhancements](https://packagecontrol.io/packages/SideBarEnhancements)
-- **[Sublime Tutor](https://packagecontrol.io/packages/Sublime%20Tutor)**
 - [MarkdownTOC](https://packagecontrol.io/packages/MarkdownTOC)
-
+- [Js Prettier](https://packagecontrol.io/packages/JsPrettier) (requires [npm prettier](https://prettier.io/docs/en/install.html))
+- [Liquid](https://packagecontrol.io/packages/Liquid)
+- Babel
+- CSV
+- Compare Side-By-Side
+- HTML Beautify
+- InsertDate
+- JavaScript Completions
+- jQuery
+- Pretty JSON
+- Solarized Color Scheme
+- Terminal
+- View In Browser
 
 ##### User Preferences
 
