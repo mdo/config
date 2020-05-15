@@ -214,6 +214,15 @@ printf "%s\n# Installing additional dependencies...\n%s" $yellow $end
 
 printf "%s\n  Homebrew:\n%s" $yellow $end
 
+# Homebrew
+printf "%s  - Install Homebrew%s"
+which -s brew
+if [[ $? != 0 ]] ; then
+  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+else
+  brew update
+fi
+
 # rbenv
 printf "%s  - Install rbenv%s"
 if [[ ! -e "$HOME/.rbenv" ]]; then
