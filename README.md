@@ -24,7 +24,7 @@ Many of the included macOS Terminal customizations are taken from <https://githu
 ### 1. Prep OS X
 
 - Download and install latest version of Xcode from the Mac App Store.
-- Download and install Xcode Command Line Tools from <https://developer.apple.com/downloads/>.
+- Open Terminal and trigger Xcode Command Line Tools installation: `xcode-select --install`
 
 **Be sure to open Xcode and agree to the terms of use.**
 
@@ -32,7 +32,7 @@ Many of the included macOS Terminal customizations are taken from <https://githu
 
 - Load [`.bash_profile`](/.bash_profile)
 - Load [`.gitconfig`](/.gitconfig) contents into the global `~/.gitconfig`
-- Load up the Ocean theme from <https://github.com/mdo/ocean-terminal>
+- Load up the Atom theme from <https://github.com/nathanbuchar/atom-one-dark-terminal>
 
 ### 3. Secure Git(Hub) access
 
@@ -58,17 +58,7 @@ Many of the included macOS Terminal customizations are taken from <https://githu
 - Install node via Homebrew: `brew install node`.
 - Install Sass, Jekyll, and Rouge: `gem install bundler sass jekyll rouge`.
 
-### 7. Setup Atom
-
-- Enable `atom` Terminal commands: from Atom.app, open the Atom menu and select *Install Shell Commands*
-- Install favorite packages
-  - [Wrap in tag](https://atom.io/packages/atom-wrap-in-tag)
-  - [Selector to tag](https://atom.io/packages/selector-to-tag)
-  - [EditorConfig](https://atom.io/packages/editorconfig)
-  - [Markdown Writer](https://atom.io/packages/markdown-writer) (install and run `Markdown Writer: Create Default keymaps` to activate default keybindings)
-  - [Import SF Mono](https://atom.io/packages/import-sf-mono) to allow Atom to access `SF Mono` as editor type face
-
-### 8. Customize things
+### 7. Customize things
 - Disable LCD font smoothing
 - Hide desktop icons with `defaults write com.apple.finder CreateDesktop false; killall Finder`
 - Set sidebar icons to Small
