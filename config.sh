@@ -86,7 +86,7 @@ fi
 printf "%s\n# Cloning repositories...\n%s" $yellow $end
 
 cd $github_dir
-github_repos=( github enterprise-web design blog brand icons githubuniverse.com resources keynote )
+github_repos=( design brand icons thehub )
 for repo in "${github_repos[@]}"
 do
   printf "%s  - github/$repo%s"
