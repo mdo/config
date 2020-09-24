@@ -66,10 +66,11 @@ alias ssh-list="cat ~/.ssh/config"
 # ------
 # Folder directory
 # ------
-alias cdai='cd ~/Documents/repo/ai-dev-tools/ansible-plays'
+alias cdai='cd ~/Documents/workspace'
+alias startai='cd ~/Documents/repo/ai-dec-tools/ansible-plays && make start'
 alias aicomp='vi ~/Documents/repo/ai-dev-tools/ansible-plays/.components_override.yaml'
 alias cdwp='cd ~/Documents/repo-wp'
-alias cdtrn='cd ~/Documents/repo'
+alias cdtrn='cd ~/Documents/repo/devops-tools/daidokoro'
 alias cpat='cd ~/Documents/sides/cpat'
 alias cpatwp='cd ~/Documents/sides/cpat/web/app/themes/cpat'
 
