@@ -1,10 +1,9 @@
 [user]
-  name = Mark Otto
-  email = markdotto@gmail.com
+  name = Mikhail Abordo
+  email = mikhailnathanielabordo@gmail.com
 
 [alias]
   co = checkout
-  cp = cherry-pick
   ci = commit
   st = status
   br = branch
@@ -22,8 +21,12 @@
     new = green
     whitespace = red reverse
   [color "status"]
-    added = yellow
-    changed = green
     untracked = cyan
   [core]
-    whitespace=fix,-indent-with-non-tab,trailing-space,cr-at-eol
+    whitespace = fix,-indent-with-non-tab,trailing-space,cr-at-eol
+    editor = /usr/bin/vim
+[http]
+  postBuffer = 1048576000
+[pull]
+  default = current
+  rebase = false
