@@ -52,6 +52,9 @@ alias gmm='echo "Merge from master." && git merge master'
 alias com='co master'
 alias brd='br -D'
 alias gc='git commit'
+alias gcm='gc -m'
+alias grl='git remote -v'
+alias ga='git add'
 
 # -------
 # Shortcuts
@@ -67,10 +70,10 @@ alias ssh-list="cat ~/.ssh/config"
 # Folder directory
 # ------
 alias cdai='cd ~/workspace'
-alias startai='cd ~/Documents/repo/ai-dev-tools/ansible-plays && make start'
-alias aicomp='vi ~/Documents/repo/ai-dev-tools/ansible-plays/.components_override.yaml'
-alias cdwp='cd ~/Documents/repo-wp'
-alias cdtrn='cd ~/Documents/repo/devops-tools/daidokoro'
-alias cpat='cd ~/Documents/sides/cpat'
-alias cpatwp='cd ~/Documents/sides/cpat/web/app/themes/cpat'
+alias startai='cd ~/Documents/ai-dev-tools/ansible-plays && make start'
+alias aicomp='vi ~/Documents/ai-dev-tools/ansible-plays/.components_override.yaml'
 
+# ------
+# Kubernetes
+# ------
+alias kc=`pwd`/utils/kc.sh
